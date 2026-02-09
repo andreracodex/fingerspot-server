@@ -131,7 +131,8 @@ return [
             'driver' => 'daily',
             'path' => storage_path('logs/fingerprint/fingerprint.log'),
             'level' => 'info',
-            'days' => 30,
+            'days' => 14,
+            'permission' => 0664,
         ],
 
     ],
